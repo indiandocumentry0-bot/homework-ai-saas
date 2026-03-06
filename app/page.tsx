@@ -1,5 +1,8 @@
-import { redirect } from 'next/navigation';
-
 export default function Home() {
-  redirect('/landing');
+  return (
+    <div style={{padding:40}}>
+      <h1>HomeworkAI Working 🚀</h1>
+      <p>If you see this page, Next.js is working.</p>
+    </div>
+  )
 }
